@@ -1,0 +1,40 @@
+<template>
+  <div class="">
+    <div class="lg:mt-40 mb-20 content flex flex-col items-center text-center">
+      <div class="flex gap-x-6 items-center">
+        <h1 class="text-3xl font-semibold">Zoraida Moreno</h1>
+        <div class="w-16 h-1 bg-[#f69494]"></div>
+      </div>
+      
+      <div class="text-center mt-12">
+        <p class="flex items-center justify-center lg:text-base mb-1">Hello there, 👋🏼</p>
+        <p class="w-100 lg:text-base leading-loose mx-auto">I have a creative mindset, empathetic and curious, focused on creating functional and attractive digital experiences centered on the user to provide real solutions in an innovative way.</p>
+      </div>
+
+      <div class="flex gap-x-4 mt-12">
+      <button class="mt-8 lg:mt-4 bg-black px-8 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all w-40">Get in touch</button>
+      <button class="mt-8 lg:mt-4 border-2 px-8 py-3 rounded-3xl text-black bg-[#F5ECEC] w-40  hover:bg-[#f69494] hover:border-transparent hover:text-white transition-all ">About me</button>
+    </div>
+  </div>
+    </div>
+
+    <div class="text-center mt-32">
+      <h2 class="text-3xl font-semibold mb-20">My Projects</h2>
+      
+      <div class=" mt-10 w-auto">
+      <Card/>
+    </div>
+    </div>
+   
+  </template>
+  
+  <script>
+import Card from '../components/Card.vue';
+  export default {
+    name: 'Home',
+    components: {Card,
+
+    }
+  };
+  </script>
+  

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+html, body {
+  margin: 0;
+  padding: 0;  
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #F5ECEC;
+}
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+
+}
+
