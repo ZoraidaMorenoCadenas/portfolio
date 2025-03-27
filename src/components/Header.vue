@@ -7,9 +7,19 @@
         : 'bg-[#F5ECEC]',
     ]"
   >
-    <div class="flex w-full lg:p-8">
+    <div class="flex w-full lg:p-8 items-center justify-between">
       <RouterLink to="/">
-        <img class="w-[70px]" src="../assets/ZoLogo.png" alt="Logo Profile" />
+     
+        <!-- <img class="w-[70px]" src="../assets/ZoLogo.png" alt="Logo Profile" /> -->
+
+        <!-- <div class="flex h-20 w-20">
+          <img class="w-[70px] h-[70px]" src="../assets/Frame14.png" alt="Logo Profile"/>
+         <img class="w-[70px] animate__animated animate__BounceRight" src="../assets/Frame15.png" alt="Logo Profile"/>
+        </div> -->
+        <img class="w-[70px] h-[60px]" src="../assets/Frame14.png" alt="Logo Profile"/>
+        <img ref="dot" class="absolute w-[10px] h-[100px] top-1/2 transform -traslate-y-1/2 animate-slide-in z-30" src="../assets/Frame15.png" alt="Logo Profile"/>
+      
+       
         <!-- <img class="w-[70px]" src="../assets/ZoLogoBlack.svg" alt="Logo Profile"> -->
         <!-- <img src="../assets/ZoLogoWhite.png" alt="Logo Profile"> -->
         <!-- <span class="font-openSanz font-medium text-2xl lg:text-4xl whitespace-nowrap">Z.</span> -->
@@ -97,3 +107,18 @@ export default {
   },
 };
 </script>
+<style scoped>
+/* Animación del punto */
+.animate-slide-in {
+  animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(400px) translateY(-60%);
+  }
+  100% {
+    transform: translateX(68px) translateY(-66%);
+  }
+}
+</style>
