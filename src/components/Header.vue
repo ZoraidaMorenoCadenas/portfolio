@@ -21,7 +21,7 @@
           <li class="relative">
             <img
               class="hidden lg:block transition-all duration-300 hover:opacity-0"
-              src="../assets/Githubblack.png"
+              src="../assets/GithubBlack.png"
               alt="Github Logo"
             />
             <img
