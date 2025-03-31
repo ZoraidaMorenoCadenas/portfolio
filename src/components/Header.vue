@@ -1,13 +1,13 @@
 <template>
   <header
     :class="[
-      'px-10 fixed top-0 left-0 w-full transition-all duration-300 z-50 lg:px-20 lg:pt-0 lg:py-0 py-10',
+      'px-10 fixed top-0 left-0 w-full transition-all duration-300 z-50 lg:px-20 lg:pt-0 lg:py-0 py-6',
       scrolled
         ? 'bg-[rgba(245,236,236,0.4)] shadow-md backdrop-blur-md'
         : 'bg-[#F5ECEC]',
     ]"
   >
-    <div class="flex w-full lg:p-8 items-center justify-between">
+    <div class="flex w-full p-2 lg:p-6 items-center justify-between">
       <RouterLink to="/">
      
         <!-- <img class="w-[70px]" src="../assets/ZoLogo.png" alt="Logo Profile" /> -->

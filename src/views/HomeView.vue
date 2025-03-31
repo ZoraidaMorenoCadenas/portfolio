@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <div class="lg:mt-40 mb-20 content flex flex-col items-center text-center">
-      <div class="flex gap-x-6 items-center">
-        <h1 class="text-3xl font-semibold">Zoraida Moreno</h1>
+      <div class="flex gap-x-6 items-center pt-20 lg:pt-2">
+        <h1 class="text-2xl lg:text-3xl font-semibold">Zoraida Moreno</h1>
         <div class="w-16 h-1 bg-[#f69494]"></div>
       </div>
       

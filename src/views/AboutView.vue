@@ -3,8 +3,8 @@
     <div :class="['flex transition-transform duration-500 ease-in-out', { '-translate-x-full': showSecondSection }]"
     class="w-[100%]">
     
-    <section class="w-full flex-shrink-0 lg:p-18 lg:pr-8 text-gray-600">
-        <div class="flex mt-20">
+    <section class="w-full flex-shrink-0 lg:p-24 lg:pr-8 text-gray-600">
+        <div class="flex">
       <div class="lg:w-1/2 lg:pr-6">
         <img
           class="w-20 h-20"
@@ -17,7 +17,7 @@
           a Barcelona para crecer profesionalmente, adquirir nuevas habilidades
           y asumir nuevos desafíos.
         </p>
-        <ul class="flex lg:gap-x-4 lg:mt-10">
+        <ul class="flex lg:gap-x-4 lg:mt-2">
           <RouterLink to="/">
             <li class="relative">
               <img
@@ -50,7 +50,7 @@
             <li>CV</li>
           </RouterLink>
         </ul>
-        <div class="mt-10">
+        <div class="mt-6">
           <span class="block text-gray-600 text-md">Connect with me at</span>
           <span class="font-medium text-md"
             >zoraidamorenocadenas79@gmail.com</span
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="border-l border-gray-400 h-auto mx-8 hidden lg:block"></div>
-      <div class="lg:w-3/4 lg:pl-6 text-gray-600 lg:text">
+      <div class="lg:w-1/2 lg:pl-6 text-gray-600 lg:text">
         <p class="lg:mt-10">
           Inicié mi carrera como Arquitecto, gestionando proyectos de principio
           a fin, lo que me dio una
@@ -94,18 +94,17 @@
       </button>
     </div>
        <!-- Seccion de skills -->
-     <!-- <div class="lg:flex lg:pt-0 text-gray-600 lg:mt-20">
+     <div class="lg:flex lg:pt-0 text-gray-600 lg:mt-20">
         <div class="lg:w-1/2 space-y-2">
             <h2 class="font-bold lg:text-xl">Software and Tools</h2>
-            <p class="lg:text-sm lg:pr-20">HTML5, CSS3,  JavaScript, Vue, React, Tailwind, PHP,  Axios, MySQL,  Visual Studio,  Figma, Trello,  Notion,  Slack,  Discord.</p>
+            <p class="lg:text-sm lg:pr-20">HTML5, CSS3,JavaScript, Vue, React, Tailwind, PHP,  Axios, MySQL,  Visual Studio,  Figma, Trello,  Notion,  Slack,  Discord.</p>
         </div>
-        <div class="lg:w-3/4 space-y-2 pl-12 pr-40">
+        <div class="lg:w-1/2 space-y-2 lg:pl-6 lg:pr-16">
             <h2 class="font-bold text-xl">Skills Design</h2>
             <p class="lg:text-sm" >Design Thinking, Design Research, Creative Strategy, Web Design, UI/UX, Typography, User Flow, Testing, Atomic Design, Responsive Design, Prototyping, Guerrilla Testing,
 Heuristic evaluation, Questionnaires, Interviews</p>
         </div>
-     </div> -->
-      
+     </div>
     </section>
 
     <!-- Otra pagina -->
@@ -199,7 +198,7 @@ Heuristic evaluation, Questionnaires, Interviews</p>
       </div>
     </div>
 
-     <div class="lg:flex lg:pt-0 text-gray-600 lg:mt-20">
+     <!-- <div class="lg:flex lg:pt-0 text-gray-600 lg:mt-20">
         <div class="lg:w-1/2 space-y-2">
             <h2 class="font-bold lg:text-xl">Software and Tools</h2>
             <p class="lg:text-sm lg:pr-20">HTML5, CSS3,  JavaScript, Vue, React, Tailwind, PHP,  Axios, MySQL,  Visual Studio,  Figma, Trello,  Notion,  Slack,  Discord.</p>
@@ -209,7 +208,7 @@ Heuristic evaluation, Questionnaires, Interviews</p>
             <p class="lg:text-sm" >Design Thinking, Design Research, Creative Strategy, Web Design, UI/UX, Typography, User Flow, Testing, Atomic Design, Responsive Design, Prototyping, Guerrilla Testing,
 Heuristic evaluation, Questionnaires, Interviews</p>
         </div>
-     </div>
+     </div> -->
     </section>
   </div>
   </div>

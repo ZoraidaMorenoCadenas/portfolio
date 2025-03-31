@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:flex lg:justify-center w-full lg:min-h-screen items-center justify-center px-4 lg:px-20">
+    <div class="lg:flex lg:justify-center w-full lg:min-h-screen items-center justify-center px-4 lg:px-18">
         <div class="lg:w-1/2 p-10">
             <h2 class="font-semibold text-4xl">Get in touch</h2>
         <div class="mt-6">
@@ -19,7 +19,7 @@
         </ul>
     </div>
 
-    <form action="" class="lg:w-1/2 lg:p-10 px-10 pb-10">
+    <form action="" class="lg:w-1/2 lg:p-6 px-10 pb-10">
         <div class="flex flex-col space-y-4">
             <div class="flex flex-col">
                 <label for="name" class=" text-gray-700 font-medium mb-2">Name</label>
@@ -35,7 +35,7 @@
             </div>
             
         </div>
-        <button class="mt-8 lg:mt-4 bg-black px-8 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all">Send</button>
+        <button class="mt-8 lg:mt-6 bg-black px-10 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all">Send</button>
     </form>
     </div>
 </template>
