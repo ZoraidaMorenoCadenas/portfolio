@@ -13,8 +13,14 @@
                 <li class="lg:pt-2">+34 691809125</li>
            </ul>
            <ul class="flex gap-x-2 lg:gap-x4 mt-2">
-            <li><img class="h-4 w-4 lg:h-6 lg:w-6" src="../assets/Github.png" alt="Github Logo"></li>
-            <li><img class="h-4 w-4 lg:h-6 lg:w-6" src="../assets/Linkedin.png" alt="Linkeding Logo"></li>
+            <a href="https://github.com/ZoraidaMorenoCadenas" target="_blank" rel="noopener noreferrer">
+                <li class="relative">
+            <img class="h-4 w-4 lg:h-6 lg:w-6" src="../assets/Github.png" alt="Github Logo"></li>
+        </a>
+        <a href="https://www.linkedin.com/in/zoraida-moreno/" target="_blank" rel="noopener noreferrer">
+            <li class="relative">
+            <img class="h-4 w-4 lg:h-6 lg:w-6" src="../assets/Linkedin.png" alt="Linkeding Logo"></li>
+        </a>
            </ul>
         </div>
            <div class="text-gray-500 text-center lg:px-8 lg:flex my-5 lg:mt-10 lg:justify-between">
