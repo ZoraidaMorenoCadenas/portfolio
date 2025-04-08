@@ -62,12 +62,13 @@
 
       </div>
         <p class="lg:mt-10 lg:py-5 lg:pl-0 lg:text-base mt-10 text-xl">
-          Obtuve mi título en Arquitectura en Venezuela, con una formación
+          <!-- Obtuve mi título en Arquitectura en Venezuela, con una formación
           enfocada en arte, diseño y pensamiento lógico. Hace trece años me mudé
           a Barcelona para crecer profesionalmente, adquirir nuevas habilidades
-          y asumir nuevos desafíos.
+          y asumir nuevos desafíos. -->
+          I obtained my degree in Architecture in Venezuela, with a focus on art, design, and logical thinking. Thirteen years ago, I moved to Barcelona to grow professionally, acquire new skills, and take on new challenges.
         </p>
-        <ul class="flex lg:gap-x-4 lg:mt-4">
+        <ul class="flex lg:gap-x-4 lg:mt-4 items-center">
           <a href="https://github.com/ZoraidaMorenoCadenas" target="_blank" rel="noopener noreferrer">
             <li class="relative">
               <img
@@ -96,39 +97,46 @@
               />
             </li>
           </a>
-          <RouterLink>
-            <li class="hidden lg:block">CV</li>
-          </RouterLink>
+          <a href="/CV Resume Zoraida Moreno.pdf" target="_blank" class="cursor-pointer">
+          <li class="bg-[#f69494] rounded-full px-4 py-2 text-white font-medium hover:bg-black transition-all">
+            CV
+          </li>
+        </a>
         </ul>
         <div class="w-full mt-6">
           <span class="block text-gray-600 lg:text-md text-lg">Connect with me at</span>
-          <span class="lg:font-medium lg:text-md font-bold "
-            >zoraidamorenocadenas79@gmail.com</span
-          >
+          <a href="mailto:zoraidamorenocadenas79@gmail.com" class="lg:font-lg text-md font-bold hover:underline">
+                zoraidamorenocadenas79@gmail.com
+              </a>
         </div>
       </div>
       <div class="border-l border-gray-400 h-auto mx-8 hidden lg:block"></div>
 
       <div class="lg:w-1/2 lg:pl-6 lg:px-6 text-gray-600 lg:text-base text-lg">
         <p class="mt-10 ">
-          Inicié mi carrera como Arquitecto, gestionando proyectos de principio
-          a fin, lo que me dio una
-          <strong>vision integral de todo el proceso.</strong>
+          <!-- Inicié mi carrera como Arquitecto, gestionando proyectos de principio
+          a fin, lo que me dio una -->
+          I began my career as an Architect, managing projects from start to finish, which gave me a
+          <strong>comprehensive vision of the entire process.</strong>
+          <!-- <strong>vision integral de todo el proceso.</strong> -->
         </p>
         <p class="mt-6">
-          A lo largo de mi trayectoria me he mantenido en aprendizaje constante,
+          <!-- A lo largo de mi trayectoria me he mantenido en aprendizaje constante,
           explorando la fotografia, el <strong>Diseño UX/UI</strong> y
-          actualmente el <strong>desarrollo web Front-end.</strong>
+          actualmente el <strong>desarrollo web Front-end.</strong> -->
+          Throughout my career, I have remained in constant learning, exploring photography, <strong>UX/UI Design</strong>, and currently <strong>Front-end web development.</strong>
         </p>
         <p class="mt-6">
-          <strong
+          <!-- <strong
             >El último año, he trabajado en proyectos a nivel educativo y
-            laboral</strong
-          >
-          lo que me ha permitido aterrizar los conocimientos adquiridos en los
-          diferentes cursos que he realizado.
+            laboral</strong 
+          >-->
+          <strong>In the past year, I have worked on projects at both educational and professional levels,</strong>
+          <!-- lo que me ha permitido aterrizar los conocimientos adquiridos en los
+          diferentes cursos que he realizado. -->
+          which has allowed me to apply the knowledge I’ve gained in the various courses I’ve taken."
         </p>
-        <p class="mt-6">
+        <!-- <p class="mt-6">
           Mi experiencia como Campus Manager en una escuela de tecnología fue un
           punto clave en mi crecimiento profesional. Descubrí lo mucho que
           disfruto conectar con las personas, desarrollando habilidades como la
@@ -136,7 +144,11 @@
           <strong>comunicación asertiva.</strong> Este rol me permitió ser el
           puente entre la escuela y los estudiantes, asegurando que ambas partes
           tuvieran una experiencia positiva y enriquecedora.
+        </p> -->
+        <p class="mt-6">
+          My experience as a Campus Manager at a technology school was a key point in my professional growth. I discovered how much I enjoy connecting with people, developing skills such as <strong>empathy</strong> and <strong>assertive communication.</strong> This role allowed me to be the bridge between the school and the students, ensuring that both parties had a positive and enriching experience.
         </p>
+
       </div>
       <button @click="toggleSection"
         class="absolute right-4 top-1/2 transform hidden bg-[#f69494] w-11 h-11 rounded-full self-center lg:block lg:mr-3 hover:bg-white transition-all"
@@ -207,54 +219,54 @@
       <div class="lg:w-1/3 space-y-4 mt-10 lg:mt-0">
         <div>
           <div class="space-y-4 mt-10 lg:mt-0">         
-        <h2 class="font-bold text-xl">Experiencia</h2>
+        <h2 class="font-bold text-xl">Experience</h2>
         <div>
           <div class="flex gap-4">
-            <p class="font-semibold">TECH ID Solutions</p>
+            <p >TECH ID Solutions</p>
             <p class="text-gray-500">Ene 2024 – Jun 2024</p>
           </div>
-          <p>Desarrollador Front-end (Remoto)</p>
+          <p class="font-semibold">Front-end Developer (Remote)</p>
         </div>
 
         <div>
           <div class="flex gap-4">
-            <p class="font-semibold">Neoland School</p>
+            <p >Neoland School</p>
             <p class="text-gray-500">Ene 2019 – Sep 2023</p>
           </div>
-          <p>Campus Manager (Barcelona)</p>
+          <p class="font-semibold">Campus Manager (Barcelona)</p>
         </div>
      
       <div> 
         <div class="flex gap-4">
-          <p class="font-semibold">Freelance Project</p>
+          <p >Freelance Project</p>
           <p class="text-gray-500">2013 – Freelance project</p>
         </div>
-          <p>Arquitecto proyectista (LATAM)</p>
+          <p class="font-semibold">Project Architect (LATAM)</p>
         </div>
 
         <div>
           <div class="flex gap-4">
-            <p class="font-semibold">Alcaldía de Sucre</p>
+            <p >Alcaldía de Sucre</p>
             <p class="text-gray-500">Ene 2009 – Dic 2010</p>
           </div>
-          <p>Asesor externo de inspección y contratación de obras (Caracas)</p>
+          <p class="font-semibold">External advisor for inspection and contracting of construction projects</p>
         </div>
 
         <div>
           <div class="flex gap-4">
-            <p class="font-semibold">Alcaldía de Baruta</p>
+            <p >Alcaldía de Baruta</p>
             <p class="text-gray-500">Mar 2007 – Dic 2010</p>
           </div>
          
-          <p>Asesor externo de inspección y contratación de obras (Caracas)</p>
+          <p class="font-semibold">External advisor for inspection and contracting of construction projects (Caracas)</p>
         </div>
 
         <div>
           <div class="flex gap-4">
-            <p class="font-semibold">GAM Arquitectos Asociados</p>
+            <p >GAM Associated Architects</p>
             <p class="text-gray-500">2006 - 2010</p>
           </div>
-          <p>Arquitecto - Fundador (Caracas)</p>
+          <p class="font-semibold">Architect - Founder (Caracas)</p>
         </div>
       </div>
     </div>
@@ -265,7 +277,7 @@
 
       <!-- segundo div -->
        <div class="hidden lg:block lg:w-1/3 space-y-4 lg:pb-20">
-        <h2 class="font-bold text-xl">Certificaciones</h2>
+        <h2 class="font-bold text-xl">Certifications</h2>
         <div>
           <div class="flex gap-4">
             <p>Code Op Barcelona</p>
@@ -301,21 +313,21 @@
             <p>Idep Barcelona</p>
             <p class="text-gray-500">Sep 2011 - Jun 2012</p>
           </div>
-          <p class="font-semibold">Fotografía General</p>
+          <p class="font-semibold">General Photography</p>
         </div>
         <div>
           <div class="flex gap-2">
-            <p>Universidad Politécnica de Cataluña</p>
+            <p>Polytechnic University of Catalonia</p>
             <p class="text-gray-500">2004 - 2005</p>
           </div>
-          <p class="font-semibold">Master en Arquitectura Sostenible</p>
+          <p class="font-semibold">Master in Sustainable Architecture</p>
         </div>
         <div>
          <div class="flex gap-4">
-          <p>Universidad Central de Venezuela</p>
+          <p>Central University of Venezuela</p>
           <p class="text-gray-500">1998 - 2004</p>
          </div>
-          <p class="font-semibold">Arquitecto</p>
+          <p class="font-semibold">Architect</p>
         </div>
       </div>
     </div>

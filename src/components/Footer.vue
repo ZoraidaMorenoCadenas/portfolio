@@ -9,18 +9,42 @@
         <!-- <span class="font-openSanz font-medium text-2xl lg:text-4xl whitespace-nowrap">Z.</span> -->
       </RouterLink>
                 <li class="mt-2 lg:pt-2">Zoraida Moreno</li>
-                <li class="lg:pt-2">zoraidamorenocadenas79@gmail.com</li>
+                <li class="lg:pt-2">
+                    <a href="mailto:zoraidamorenocadenas79@gmail.com" class="lg:font-medium lg:text-md font-bold text-white hover:underline">
+                zoraidamorenocadenas79@gmail.com
+              </a>
+                </li>
                 <li class="lg:pt-2">+34 691809125</li>
            </ul>
            <ul class="flex gap-x-2 lg:gap-x4 mt-2">
             <a href="https://github.com/ZoraidaMorenoCadenas" target="_blank" rel="noopener noreferrer">
-                <li class="relative">
-            <img class="h-4 w-4 lg:h-6 lg:w-6" src="../assets/Github.png" alt="Github Logo"></li>
-        </a>
-        <a href="https://www.linkedin.com/in/zoraida-moreno/" target="_blank" rel="noopener noreferrer">
             <li class="relative">
-            <img class="h-4 w-4 lg:h-6 lg:w-6" src="../assets/Linkedin.png" alt="Linkeding Logo"></li>
-        </a>
+              <img
+                class="hidden lg:block transition-all duration-300 hover:opacity-0"
+                src="../assets/GithubRedS.png"
+                alt="Github Logo"
+              />
+                <img
+              class="hidden lg:block absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100"
+              src="../assets/GithubBlack.png"
+              alt="Github Logo"
+            />
+            </li>
+          </a>
+          <a href="https://www.linkedin.com/in/zoraida-moreno/" target="_blank" rel="noopener noreferrer">
+            <li class="relative">
+              <img
+                class="hidden lg:block transition-all duration-300 hover:opacity-0"
+                src="../assets/LinkedinRedS.png"
+                alt="Linkedin Logo"
+              />
+              <img
+                class="hidden lg:block absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100"
+                src="../assets/LinkedinBlack.png"
+                alt="Linkedin Logo"
+              />
+            </li>
+          </a>
            </ul>
         </div>
            <div class="text-gray-500 text-center lg:px-8 lg:flex my-5 lg:mt-10 lg:justify-between">
