@@ -2,7 +2,7 @@
     <nav class="flex w-full items-center justify-end lg:justify-center relative">
         <ul class="md:flex items-center gap-8">
             <li v-for="link in navLinks" :key="link.path">
-                <RouterLink :to="link.path" exact-active-class="active-link" class="hidden md:block">
+                <RouterLink :to="link.path" exact-active-class="active-link" class="hidden md:block lg:font-light">
                     {{ link.sectionName }}
                 </RouterLink>
             </li>

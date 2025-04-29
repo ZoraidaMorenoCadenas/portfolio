@@ -18,13 +18,8 @@
         <a href="https://github.com/ZoraidaMorenoCadenas" target="_blank" rel="noopener noreferrer">
           <li class="relative">
             <img
-              class="hidden lg:block transition-all duration-300 hover:opacity-0"
-              src="../assets/GithubBlack.png"
-              alt="Github Logo"
-            />
-            <img
-              class="hidden lg:block absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100"
-              src="../assets/GithubRedS.png"
+              class="hidden lg:block transition-all duration-300 transform hover:scale-120"
+              src="../assets/GithubS.svg"
               alt="Github Logo"
             />
           </li>
@@ -32,13 +27,8 @@
         <a href="https://www.linkedin.com/in/zoraida-moreno/" target="_blank" rel="noopener noreferrer">
           <li class="relative">
             <img
-              class="hidden lg:block transition-all duration-300 hover:opacity-0"
-              src="../assets/LinkedinBlack.png"
-              alt="Linkeding Logo"
-            />
-            <img
-              class="hidden lg:block absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100"
-              src="../assets/LinkedinRedS.png"
+              class="hidden lg:block transition-all duration-300 transform hover:scale-120"
+              src="../assets/LinkedinS.svg"
               alt="Linkeding Logo"
             />
           </li>

@@ -1,5 +1,4 @@
 <template>
-    <h4>Soy WorkView</h4>
     <Card/>
 </template>
 

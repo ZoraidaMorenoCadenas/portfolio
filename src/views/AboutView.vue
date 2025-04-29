@@ -14,49 +14,49 @@
         />
         <div class="lg:text-sm lg:flex lg:gap-4 lg:flex-wrap lg:justify-center">
               <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] lg:py-1 rounded-full px-3  text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border lg:py-1 rounded-full px-3  text-xs font-regular text-gray-700"
                 >HTML5</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494]  rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border  rounded-full px-3 text-xs font-regular text-gray-700"
                 >CSS3</span>
                 <span
-                class=" lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class=" lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >JavaScript</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Vue</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >React</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Tailwind</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >PHP</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Axios</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] lg:py-1 rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border lg:py-1 rounded-full px-3 text-xs font-regular text-gray-700"
                 >MySQL</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Visual Studio</span>
                 <span
-                class="lg:flex lg:py-1 lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:py-1 lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Figma</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Trello</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Notion</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Slack</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Discord</span>
                </div>
 
@@ -72,33 +72,23 @@
           <a href="https://github.com/ZoraidaMorenoCadenas" target="_blank" rel="noopener noreferrer">
             <li class="relative">
               <img
-                class="hidden lg:block transition-all duration-300 hover:opacity-0"
-                src="../assets/GithubBlack.png"
+                class="hidden lg:block transition-all duration-300 transform hover:scale-120"
+                src="../assets/GithubM.svg"
                 alt="Github Logo"
               />
-                <img
-              class="hidden lg:block absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100"
-              src="../assets/GithubRedS.png"
-              alt="Github Logo"
-            />
             </li>
           </a>
           <a href="https://www.linkedin.com/in/zoraida-moreno/" target="_blank" rel="noopener noreferrer">
             <li class="relative">
               <img
-                class="hidden lg:block transition-all duration-300 hover:opacity-0"
-                src="../assets/LinkedinBlack.png"
-                alt="Linkedin Logo"
-              />
-              <img
-                class="hidden lg:block absolute top-0 left-0 w-full h-full opacity-0 hover:opacity-100"
-                src="../assets/LinkedinRedS.png"
+                class="hidden lg:block transition-all duration-300 transform hover:scale-120"
+                src="../assets/LinkedinM.svg"
                 alt="Linkedin Logo"
               />
             </li>
           </a>
           <a href="/CV Resume Zoraida Moreno.pdf" target="_blank" class="cursor-pointer">
-          <li class="bg-[#f69494] rounded-full px-4 py-2 text-white font-medium hover:bg-black transition-all">
+          <li class="border border-gray-300 hover:text-white duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 rounded-full px-4 py-2 hover: text-black font-light hover:bg-[#f69494] hover:border-transparent transition-all bg-transparent">
             CV
           </li>
         </a>
@@ -150,63 +140,99 @@
         </p>
 
       </div>
-      <button @click="toggleSection"
-        class="absolute right-4 top-1/2 transform hidden bg-[#f69494] w-11 h-11 rounded-full self-center lg:block lg:mr-3 hover:bg-white transition-all"
+      <!-- <button @click="toggleSection"
+        class="absolute border-1 right-4 top-1/2 transform hidden  w-11 h-11 rounded-full self-center lg:block lg:mr-3 hover:bg-[#f69494] hover:border-transparent transition-all"
       >
         >
-      </button>
+      </button> -->
+      <button @click="toggleSection"
+  class="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-transparent border border-gray-300 hover:bg-[#f69494] hover:border-transparent transition-all duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#f69494]"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-6 h-6 text-gray-700 hover:text-white transition-all duration-300"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M9 5l7 7-7 7"
+    />
+  </svg>
+</button>
     </div>
     </section>
 
     <!--Otra pagina -->
      <section class="relative w-full lg:h-screen flex-shrink-0 lg:p-26 text-gray-600">
         <div class="flex h-full">
-      <button @click="toggleSection"
-        class="absolute left-4 top-1/2 transform hidden bg-[#f69494] w-11 h-11 rounded-full self-center lg:block lg:ml-3 hover:bg-white transition-all"
+      <!-- <button @click="toggleSection"
+        class="absolute left-4 top-1/2 transform hidden hover:bg-[#f69494] hover:border-transparent w-11 h-11 rounded-full self-center lg:block lg:ml-3 border-1 transition-all"
       >
         <
-      </button>
+      </button> -->
+      <button @click="toggleSection"
+  class="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-transparent border border-gray-300 hover:bg-[#f69494] hover:border-transparent transition-all duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#f69494]"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-6 h-6 text-gray-700 hover:text-white transition-all duration-300"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M15 19l-7-7 7-7"
+    />
+  </svg>
+</button>
 
       <div class="lg:w-1/3">
-      <h2 class="font-bold lg:text-xl text-lg lg:mb-10">Skills Design</h2>
+      <h2 class="font-bold lg:text-xl text-lg lg:mb-10">Design Skills</h2>
       <div class="lg:flex">
         <div class="lg:text-sm lg:flex lg:gap-x-4 lg:gap-y-6 space-x-2 lg:flex-wrap">
               <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] lg:py-1 rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border lg:py-1 rounded-full px-3 text-xs font-regular text-gray-700"
                 >Design Thinking</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Design Research</span>
                 <span
-                class="lg:flex lg:py-1 lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:py-1 lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Creative Strategy</span> <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Web Design</span> <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >UX/UI</span> <span
-                class="lg:py-1 lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:py-1 lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Typography</span> <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >User Flow</span> <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Testing</span> <span
-                class="lg:flex lg:py-1 lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:py-1 lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Atomic Design</span> <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Responsive Design</span> <span
-                class="lg:py-1 lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:py-1 lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Prototyping</span>
                 <span
-                class="lg:flex lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Heuristic evaluation</span><span
-                class="lg:flex lg:py-1 lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:py-1 lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Guerrilla Testing</span>
                 <span
-                class="lg:flex lg:py-1 lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:py-1 lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Questionaries</span>
                 <!-- <div class="lg:flex lg:justify-center lg:w-2/3"> -->
                   <span
-                class="lg:flex lg:py-1 lg:items-center inline-block bg-[#f69494] rounded-full px-3 text-xs font-semibold text-gray-700"
+                class="lg:flex lg:py-1 lg:items-center inline-block border rounded-full px-3 text-xs font-regular text-gray-700"
                 >Interviews</span>
                 <!-- </div> -->
                   </div>

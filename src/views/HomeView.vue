@@ -12,8 +12,9 @@
       </div>
 
       <div class="flex gap-x-4 mt-12">
-      <RouterLink to="/contact" class="mt-8 lg:mt-4 bg-black px-8 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all w-40">Get in touch</RouterLink>
-      <RouterLink to="/about" class="mt-8 lg:mt-4 border-2 px-8 py-3 rounded-3xl text-black bg-[#F5ECEC] w-40  hover:bg-[#f69494] hover:border-transparent hover:text-white transition-all ">About me</RouterLink>
+      <!-- <RouterLink to="/contact" class="mt-8 lg:mt-4 bg-black px-8 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all w-40">Get in touch</RouterLink> -->
+      <RouterLink to="/about" class="mt-8 lg:mt-4 border-2 border-black bg-black px-8 py-3 rounded-3xl text-white w-40 hover:bg-[#f69494] hover:border-transparent hover:text-white transition-all">Get in touch</RouterLink>
+      <RouterLink to="/about" class="mt-8 lg:mt-4 border-2 px-8 py-3 rounded-3xl text-black bg-[#F5ECEC] w-40 hover:bg-[#f69494] hover:border-transparent hover:text-white transition-all">About me</RouterLink>
     </div>
   </div>
     </div>
