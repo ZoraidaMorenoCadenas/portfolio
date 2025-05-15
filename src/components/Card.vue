@@ -8,9 +8,9 @@
           <a href="https://eventop-codeop.web.app/" class="block">
             <div class="h-64 overflow-hidden">
             <img
-              class="w-full h-full hover:opacity-75 transition-opacity duration-300"
+              class="w-full h-full object-cover hover:opacity-75 transition-opacity duration-300"
               alt="Placeholder"
-              src="../assets/Eventop1.png"
+              src="../assets/EventopCover.svg"
           />
         </div>
         </a>
@@ -105,9 +105,9 @@
             >
             <div class="h-64 overflow-hidden">
               <img
-              class="h-full block hover:opacity-75 transition-opacity duration-300"
+              class="h-full block w-full object-cover hover:opacity-75 transition-opacity duration-300"
               alt="Placeholder"
-              src="../assets/landingPage.png
+              src="../assets/AgencyCover.svg
               "
           />
             </div>

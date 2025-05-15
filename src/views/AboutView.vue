@@ -87,7 +87,7 @@
               />
             </li>
           </a>
-          <a href="/src/assets/CVZoraidaMoreno.pdf" target="_blank" class="cursor-pointer">
+          <a href="/src/assets/ CVZoraidaMoreno.pdf" target="_blank" class="cursor-pointer">
           <li class="border border-gray-300 hover:text-white duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 rounded-full px-4 py-2 hover: text-black font-light hover:bg-[#e74c3c] hover:border-transparent transition-all bg-transparent">
             CV
           </li>
