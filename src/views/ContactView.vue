@@ -29,8 +29,8 @@
            
           </li>
         </a>
-        <a href="/CV Resume Zoraida Moreno.pdf" target="_blank" class="cursor-pointer">
-          <li class="border border-gray-300 hover:text-white duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 rounded-full px-4 py-2 hover: text-black font-light hover:bg-[#f69494] hover:border-transparent transition-all bg-transparent">
+        <a href="/CV Zoraida Moreno.pdf" target="_blank" class="cursor-pointer">
+          <li class="border border-gray-300 hover:text-white duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 rounded-full px-4 py-2 hover: text-black font-light hover:bg-[#e74c3c] hover:border-transparent transition-all bg-transparent">
             CV
           </li>
         </a>
@@ -53,7 +53,7 @@
             </div>
             
         </div>
-        <button type="submit" class="mt-8 lg:mt-6 bg-black px-10 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all">Send</button>
+        <button type="submit" class="mt-8 lg:mt-6 bg-black px-10 py-3 text-ml text-white rounded-3xl hover:bg-[#e74c3c] transition-all">Send</button>
     </form>
     </div>
 </template>

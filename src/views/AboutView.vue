@@ -87,8 +87,8 @@
               />
             </li>
           </a>
-          <a href="/CV Resume Zoraida Moreno.pdf" target="_blank" class="cursor-pointer">
-          <li class="border border-gray-300 hover:text-white duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 rounded-full px-4 py-2 hover: text-black font-light hover:bg-[#f69494] hover:border-transparent transition-all bg-transparent">
+          <a href="/src/assets/CVZoraidaMoreno.pdf" target="_blank" class="cursor-pointer">
+          <li class="border border-gray-300 hover:text-white duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 rounded-full px-4 py-2 hover: text-black font-light hover:bg-[#e74c3c] hover:border-transparent transition-all bg-transparent">
             CV
           </li>
         </a>
@@ -141,12 +141,12 @@
 
       </div>
       <!-- <button @click="toggleSection"
-        class="absolute border-1 right-4 top-1/2 transform hidden  w-11 h-11 rounded-full self-center lg:block lg:mr-3 hover:bg-[#f69494] hover:border-transparent transition-all"
+        class="absolute border-1 right-4 top-1/2 transform hidden  w-11 h-11 rounded-full self-center lg:block lg:mr-3 hover:bg-[#e74c3c] hover:border-transparent transition-all"
       >
         >
       </button> -->
       <button @click="toggleSection"
-  class="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-transparent border border-gray-300 hover:bg-[#f69494] hover:border-transparent transition-all duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#f69494]"
+  class="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-transparent border border-gray-300 hover:bg-[#e74c3c] hover:border-transparent transition-all duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#e74c3c]"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -170,12 +170,12 @@
      <section class="relative w-full lg:h-screen flex-shrink-0 lg:p-26 text-gray-600">
         <div class="flex h-full">
       <!-- <button @click="toggleSection"
-        class="absolute left-4 top-1/2 transform hidden hover:bg-[#f69494] hover:border-transparent w-11 h-11 rounded-full self-center lg:block lg:ml-3 border-1 transition-all"
+        class="absolute left-4 top-1/2 transform hidden hover:bg-[#e74c3c] hover:border-transparent w-11 h-11 rounded-full self-center lg:block lg:ml-3 border-1 transition-all"
       >
         <
       </button> -->
       <button @click="toggleSection"
-  class="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-transparent border border-gray-300 hover:bg-[#f69494] hover:border-transparent transition-all duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#f69494]"
+  class="absolute left-4 top-1/2 transform -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-transparent border border-gray-300 hover:bg-[#e74c3c] hover:border-transparent transition-all duration-300 shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#e74c3c]"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"

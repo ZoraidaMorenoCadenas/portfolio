@@ -59,6 +59,7 @@ export default {
 
 <style>
     .active-link {
-  border-bottom: 3px solid #f69494;
+  border-bottom: 3px solid #e74c3c;
+  /* color anterior #f69494; */
 }
 </style>

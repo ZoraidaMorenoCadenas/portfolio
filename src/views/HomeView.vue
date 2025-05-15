@@ -1,9 +1,9 @@
 <template>
-  <div class="">
+  <div>
     <div class="lg:mt-40 mb-20 content flex flex-col items-center text-center">
       <div class="flex gap-x-6 items-center pt-20 lg:pt-2">
         <h1 class="text-2xl lg:text-3xl font-semibold">Zoraida Moreno</h1>
-        <div class="w-16 h-1 bg-[#f69494]"></div>
+        <div class="w-16 h-1 bg-[#e74c3c]"></div>
       </div>
       
       <div class="text-center mt-12">
@@ -13,8 +13,8 @@
 
       <div class="flex gap-x-4 mt-12">
       <!-- <RouterLink to="/contact" class="mt-8 lg:mt-4 bg-black px-8 py-3 text-ml text-white rounded-3xl hover:bg-[#f69494] transition-all w-40">Get in touch</RouterLink> -->
-      <RouterLink to="/about" class="mt-8 lg:mt-4 border-2 border-black bg-black px-8 py-3 rounded-3xl text-white w-40 hover:bg-[#f69494] hover:border-transparent hover:text-white transition-all">Get in touch</RouterLink>
-      <RouterLink to="/about" class="mt-8 lg:mt-4 border-2 px-8 py-3 rounded-3xl text-black bg-[#F5ECEC] w-40 hover:bg-[#f69494] hover:border-transparent hover:text-white transition-all">About me</RouterLink>
+      <RouterLink to="/contact" class="mt-8 lg:mt-4 border-2 border-black bg-black px-8 py-3 rounded-3xl text-white w-40 hover:bg-[#e74c3c] hover:border-transparent hover:text-white transition-all">Get in touch</RouterLink>
+      <RouterLink to="/about" class="mt-8 lg:mt-4 border-2 px-8 py-3 rounded-3xl text-black bg-[#F5ECEC] w-40 hover:bg-[#e74c3c] hover:border-transparent hover:text-white transition-all">About me</RouterLink>
     </div>
   </div>
     </div>

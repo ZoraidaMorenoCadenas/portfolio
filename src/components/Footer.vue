@@ -5,7 +5,7 @@
             <RouterLink to="/">
         <!-- <img class="w-[40px]" src="../assets/ZoLogo.png" alt="Logo Profile" /> -->
         <!-- <img src="../assets/ZoLogoBlack.svg" alt="Logo Profile"> -->
-        <img class="w-[40px]" src="../assets/ZoLogoWhite.png" alt="Logo Profile">
+        <img class="w-[40px]" src="../assets/LogoF.png" alt="Logo Profile">
         <!-- <span class="font-openSanz font-medium text-2xl lg:text-4xl whitespace-nowrap">Z.</span> -->
       </RouterLink>
                 <li class="mt-2 lg:pt-2 lg:font-light">Zoraida Moreno</li>

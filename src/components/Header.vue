@@ -9,8 +9,8 @@
   >
     <div class="flex w-full p-2 lg:p-6 items-center justify-between">
       <RouterLink to="/">
-        <img class="w-[70px] h-[60px]" src="../assets/Frame14.png" alt="Logo Profile"/>
-        <img ref="dot" class="absolute w-[10px] h-[100px] top-1/2 transform -traslate-y-1/2 animate-slide-in z-30" src="../assets/Frame15.png" alt="Logo Profile"/>
+        <img class="w-[70px] h-[60px]" src="../assets/LogoHS.png" alt="Logo Profile"/>
+        <img ref="dot" class="absolute w-[10px] h-[10px] top-2/3 transform -traslate-y-1/2 animate-slide-in z-30" src="../assets/Point.svg" alt="Logo Profile"/>
       </RouterLink>
       <Navbar :navLinks="navLinks"></Navbar>
 
@@ -29,7 +29,7 @@
             <img
               class="hidden lg:block transition-all duration-300 transform hover:scale-120"
               src="../assets/LinkedinS.svg"
-              alt="Linkeding Logo"
+              alt="Linkedin Logo"
             />
           </li>
         </a>
