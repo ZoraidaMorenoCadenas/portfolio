@@ -39,7 +39,7 @@
            </ul>
         </div>
            <div class="text-white font-light text-center lg:px-8 lg:flex my-5 lg:mt-10 lg:justify-between">
-            <span class="text-sm lg:text-xs">Made with ♡, HTML5, CSS5 y JS</span> <br>
+            <span class="text-sm lg:text-xs">Made with ♡, VUE y Tailwind</span> <br>
             <span class="text-sm lg:text-xs">©️ 2025 Zoraida Moreno. All Right Reserved</span>
            </div>
     </footer>

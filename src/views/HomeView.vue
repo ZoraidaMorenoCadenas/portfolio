@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <Scroller>
+    <div>
     <div class="lg:mt-40 mb-20 content flex flex-col items-center text-center">
       <div class="flex gap-x-6 items-center pt-20 lg:pt-2">
         <h1 class="text-2xl lg:text-3xl font-semibold">Zoraida Moreno</h1>
@@ -18,11 +19,13 @@
     </div>
   </div>
     </div>
+  </Scroller>
+ 
 
     <div class="text-center mt-32">
       <h2 class="text-3xl font-semibold mb-20">My Projects</h2>
       
-      <div class=" mt-10 w-auto">
+      <div class="mt-10 w-auto">
       <Card/>
     </div>
     </div>
@@ -32,10 +35,11 @@
   <script>
 import { RouterLink } from 'vue-router';
 import Card from '../components/Card.vue';
+import Scroller from '../components/Scroller.vue';
   export default {
     name: 'Home',
     components: {Card,
-
+      Scroller
     }
   };
   </script>
