@@ -6,6 +6,64 @@
       <Scroller>
       <div class="my-1 px-1 w-full lg:my-20 lg:px-4">
         <article
+          class="h-[500px] flex justify-between overflow-hidden rounded-lg shadow-lg lg:px-12 bg-white">
+          <div class="flex gap-1.5 items-center w-1/2">
+            <a href="#" class="block p-4">
+              <div class="h-90 overflow-hidden">
+                <img
+                  class="w-full h-full object-cover hover:opacity-75 transition-opacity duration-300"
+                  alt="Placeholder"
+                  src="../assets/FastMotoP.png"
+                />
+              </div>
+            </a>
+            
+            
+          </div>
+          <div class="w-1/2 lg:p-12 flex flex-col justify-center">
+            <header
+            class="flex justify-between leading-tight p-2 md:p-4 bg-[#FFFF]"
+          >
+            <h2 class="text-3xl font-bold">
+              <a class="no-underline text-gray-900 hover:opacity-75" href="#"
+                >FastMoto</a
+              >
+            </h2>
+          </header>
+          <div class="p-4 text-left">
+            <p class="text-gray-700 leading-normal text-start mb-8">
+              Llega más rápido!
+            </p>
+            <a
+              class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
+              href="/detail/2"
+              >View project</a
+            >
+            <div class="py-8 flex gap-1.5 items-center">
+              <span
+                class="inline-block border rounded-full px-3 py-1 text-xs font-regular text-gray-700"
+                >Figma</span
+              >
+              <span
+                class="inline-block border rounded-full px-3 py-1 text-xs font-regular text-gray-700"
+                >Design Thinking</span
+              >
+              <span
+                class="inline-block border rounded-full px-3 py-1 text-xs font-regular text-gray-700"
+                >Prototype</span
+              >
+            </div>
+          </div>
+         
+          </div>
+          
+        </article>
+      </div>
+    </Scroller>
+
+      <Scroller>
+      <div class="my-1 px-1 w-full lg:my-20 lg:px-4">
+        <article
           class="h-[500px] flex justify-between overflow-hidden rounded-lg shadow-lg lg:px-12 bg-white"
         >
           <div class="flex gap-1.5 items-center w-1/2">
@@ -90,7 +148,7 @@
           >
             <h2 class="text-3xl font-bold">
               <a class="no-underline text-gray-900 hover:opacity-75" href="#"
-                >Actapp</a
+                >ACT App</a
               >
             </h2>
           </header>
@@ -100,7 +158,7 @@
             </p>
             <a
               class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
-              href="/detail"
+              href="/detail/1"
               >View project</a
             >
             <div class="py-8 flex gap-1.5 items-center">
@@ -149,7 +207,7 @@
             class="flex justify-between leading-tight p-2 md:p-4 bg-[#FFFF]">
             <h2 class="text-3xl font-bold">
               <a class="no-underline text-gray-900 hover:opacity-75" href="#"
-                >Actapp</a>
+                >Agency Landing page</a>
             </h2>
           </header>
           <div class="p-4 text-left">
