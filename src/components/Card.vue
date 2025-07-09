@@ -156,11 +156,17 @@
             <p class="text-gray-700 leading-normal text-start mb-8">
               Mejora tu relación con el alcohol!
             </p>
-            <a
+            <!-- <a
               class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
               href="/detail/1"
               >View project</a
-            >
+            > -->
+            <router-link
+  class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
+  to="/detail/1"
+>
+  View project
+</router-link>
             <div class="py-8 flex gap-1.5 items-center">
               <span
                 class="inline-block border rounded-full px-3 py-1 text-xs font-regular text-gray-700"
