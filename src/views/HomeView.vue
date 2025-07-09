@@ -3,7 +3,7 @@
     <div>
     <div class="lg:mt-40 mb-20 content flex flex-col items-center text-center">
       <div class="flex gap-x-6 items-center pt-20 lg:pt-2">
-        <h1 class="text-2xl lg:text-3xl font-semibold">Anabel Vázquez</h1>
+        <h1 class="text-2xl lg:text-3xl font-semibold">Zoraida Moreno</h1>
         <div class="w-16 h-1 bg-[#e74c3c]"></div>
       </div>
       
