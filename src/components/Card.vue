@@ -34,11 +34,12 @@
             <p class="text-gray-700 leading-normal text-start mb-8">
               Llega más rápido!
             </p>
-            <a
+            <!-- <a
               class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
               href="/detail/2"
               >View project</a
-            >
+            > -->
+            <RouterLink to="/detail/2" class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit">View project</RouterLink>
             <div class="py-8 flex gap-1.5 items-center">
               <span
                 class="inline-block border rounded-full px-3 py-1 text-xs font-regular text-gray-700"
@@ -121,10 +122,6 @@
     </Scroller>
 
 
-
-
-
-
     <Scroller>
       <div class="my-1 px-1 w-full lg:my-20 lg:px-4">
         <article
@@ -156,17 +153,13 @@
             <p class="text-gray-700 leading-normal text-start mb-8">
               Mejora tu relación con el alcohol!
             </p>
+
             <!-- <a
               class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
               href="/detail/1"
               >View project</a
             > -->
-            <router-link
-  class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit"
-  to="/detail/1"
->
-  View project
-</router-link>
+            <RouterLink to="/detail/1" class="bg-black inline-flex px-6 py-3 text-sm text-white rounded-3xl hover:bg-[#e74c3c] transition-all w-fit">View project</RouterLink>
             <div class="py-8 flex gap-1.5 items-center">
               <span
                 class="inline-block border rounded-full px-3 py-1 text-xs font-regular text-gray-700"
@@ -242,7 +235,9 @@
     </div>
   </div>
 </template>
+
 <script>
+import { RouterLink } from 'vue-router';
 import Scroller from '../components/Scroller.vue'
 export default {
   name: "Card",
