@@ -240,7 +240,7 @@
 import { RouterLink } from 'vue-router';
 import Scroller from '../components/Scroller.vue'
 export default {
-  name: "Card",
+  name: 'Card',
   components: {
     Scroller
   }

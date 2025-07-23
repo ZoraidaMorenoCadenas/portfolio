@@ -4,7 +4,7 @@ import AboutView from '../src/views/AboutView.vue';
 import HomeView from './views/HomeView.vue';
 import WorkView from '../src/views/WorkView.vue';
 import DetailCard from '../src/views/DetailCard.vue';
-import DetailFastmoto from '../src/views/DetailFastmoto.vue';
+import DetailFastmoto from '../src/views/DetailFastmoto.vue'
 
 
 const routes = [
@@ -13,8 +13,7 @@ const routes = [
   { path: '/work', component: WorkView },
   { path: '/contact', component: ContactView },
   { path: '/detail/1', component: DetailCard },
-  { path: '/detail/2', component: DetailFastmoto },
-  
+  { path: '/detail/2', component: DetailFastmoto},
 
 ];
 
