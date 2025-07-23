@@ -20,6 +20,21 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // Si hay una posición guardada (ej. al volver atrás), ir allí
+    if (savedPosition) {
+      return savedPosition;
+    }
+    // Si la ruta tiene un hash (ej. /detail/1#section2), ir al elemento
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+    // Por defecto, ir al top
+    return { top: 0 }
+  }
 });
 
 export default router;
